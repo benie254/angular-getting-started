@@ -135,9 +135,7 @@ To interact with your application from the browser, follow the steps below to st
 - Run the Angular server:
 
   ```
-
   ng s
-
   ```
 
   - In this case, `s` stands for `serve`.
@@ -162,12 +160,12 @@ To interact with your application from the browser, follow the steps below to st
 - You can also run the Angular server and open the browser address using one command:
 
   ```
-  ng s –o
+  ng s --o
   ```
 
   - In this case, `s` stands for `serve`, and `o` stands for `open`.
   - This means you can replace `s` with `serve` and `o` with `open`, to get the same result.
 
     ```
-    ng serve –open
+    ng serve --open
     ```
