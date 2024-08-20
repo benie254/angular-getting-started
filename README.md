@@ -8,3 +8,13 @@ In this guide, I’m assuming that you have the following installed on your mach
 
 - [Node.js version 18.9.1 or later](https://github.com/nvm-sh/nvm.git)
 - [VSCode](https://code.visualstudio.com/docs/setup/linux)
+
+## 1. Install Angular CLI
+
+The Angular CLI enables you to run Angular commands from your terminal.
+
+- Run the following command to install the Angular CLI globally:
+
+  ```
+  npm install -g @angular/cli
+  ```
