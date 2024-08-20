@@ -121,3 +121,53 @@ Here is a breakdown of the purposes of the above directories and files:
 - `tsconfig.spec.json`
 
   - A configuration file for TypeScript in the context of unit tests.
+
+## 3. Run Your New Angular Project
+
+To interact with your application from the browser, follow the steps below to start the Angular development server:
+
+- Navigate to the project directory:
+
+  ```
+  cd project-name-here
+  ```
+
+- Run the Angular server:
+
+  ```
+
+  ng s
+
+  ```
+
+  - In this case, `s` stands for `serve`.
+  - This means you can replace `s` with `serve` to get the same result.
+
+    ```
+    ng serve
+    ```
+
+- Alternatively, run:
+
+  ```
+  npm start
+  ```
+
+- Once the server is running, open the following address in your preferred browser:
+
+  ```
+  http://localhost:4200
+  ```
+
+- You can also run the Angular server and open the browser address using one command:
+
+  ```
+  ng s –o
+  ```
+
+  - In this case, `s` stands for `serve`, and `o` stands for `open`.
+  - This means you can replace `s` with `serve` and `o` with `open`, to get the same result.
+
+    ```
+    ng serve –open
+    ```
